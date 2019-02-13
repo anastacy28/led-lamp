@@ -41,4 +41,5 @@
 
 @media screen and (max-width: 500px) {
   .navbar .navbar__logo {
-    width: 21%; } }
+    width: 21%;
+    height: 50px; } }
