@@ -1,0 +1,89 @@
+.range-box {
+	display: flex;
+    background: url(../images/bg-card2.jpg);
+    padding: 10px 20px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 20px;
+	.range-box__title {
+		color: #fff;
+        line-height: 36px;
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 32px;
+	}
+}
+
+.range-box__holder {
+	margin-bottom: 10px;
+	border: 5px;
+	padding: 0 20px;
+	width: 50%;
+}
+.range-box__holder:first-child {
+	margin-right: 10px;
+}
+.range-box__column li {
+    border-radius: 12px;
+}
+.range-box__column li a {
+    padding: 0 20px;
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: bolder;
+    min-width: 400px;
+}
+
+@media  screen and (max-width: 1220px) {
+.range-box__column li a {
+    font-size: 21px;
+   }
+}
+
+@media  screen and (max-width: 977px) {
+.range-box__column li a {
+    font-size: 19px;
+   }
+    }
+
+@media  screen and (max-width: 930px) {
+    .range-box {
+    flex-direction: column;
+    
+}
+.range-box__holder {
+     width: 90%;
+}
+}
+
+@media  screen and (max-width: 500px) {
+     .range-box {
+    .range-box__title {
+        line-height: 40px;
+        font-size: 21px;
+    }
+}
+.range-box__column li a {
+    font-size: 15px;
+    min-width: 280px;
+}
+    }
+@media  screen and (max-width: 409px) {
+  .range-box {
+    padding: 0px;
+  }
+}   
+@media  screen and (max-width: 367px) {
+.range-box__column li a {
+    min-width: 255px;
+   }
+} 
+
+@media  screen and (max-width: 360px) {
+.range-box__column li a {
+    font-size: 13px;
+    min-width: 225px;
+   }
+} 

@@ -1,0 +1,22 @@
+.section {
+  background: url("../images/bg70.png") repeat 0 0;
+  width: 100%;
+  height: auto;
+  padding: 42px 0; }
+
+.section-inverse {
+  padding: 21px 0; }
+
+.compare-box {
+  border: 2px dotted blue;
+  width: 80%;
+  margin: 0 auto; }
+
+.sertif-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .sertif-holder .img {
+    width: 20%; }

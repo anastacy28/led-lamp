@@ -1,0 +1,59 @@
+.card-benefit__list{
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+.card-benefit {
+	width: 50%;
+	display: flex;
+	margin-bottom: 10px;
+	align-items: center;
+  }
+}
+.card-benefit__body {
+	padding: 10px;
+	.card-benefit__title {
+		font-size: 24px;
+		line-height: 28px;
+		color: blue;
+	}
+}
+.card-benefit__description {
+	padding: 10px 0;
+	font-size: 24px;
+	line-height: 28px;
+}
+.card-benefit__img, .card-benefit__image  {
+	padding: 15px;
+    width: 87px;
+    height: 87px;
+    border: 2px solid blue;
+    border-radius: 87px;
+    margin-right: 19px;
+    display: inline-flex;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+.card-benefit__image {
+	 background: rgba(162, 213, 234, 0.2);
+}
+@media  screen and (max-width: 640px) {
+   .card-benefit__list{
+.card-benefit {
+      width: 80%;
+  }
+ }
+}
+
+@media  screen and (max-width: 355px) {
+.card-benefit__image {
+    margin-right: 9px;
+}	
+
+.card-benefit__description {
+	font-size: 20px;
+	line-height: 24px;
+ }
+}

@@ -1,0 +1,57 @@
+#bg_popup, #bg_popup_second, #bg_popup_forth,  #bg_popup_sixth, #bg_popup_eighth, #bg_popup_third, #bg_popup_fifth, #bg_popup_seventh {
+display: none;
+position: fixed;
+z-index: 999999999999999999;
+top: -50px;
+right: 0px;
+}
+
+#bg_popup, #bg_popup_third, #bg_popup_fifth, #bg_popup_seventh {
+top: -55px;
+}
+
+#popup, #popup_2, #popup_3, #popup_4, #popup_5, #popup_6, #popup_7, #popup_8  {
+background: #f31217;
+color: #fff;
+width: 300px;
+margin: 25% auto;
+padding: 7px 10px;
+border: 2px solid #4fa2ca;
+position: relative;
+box-shadow: 0px 0px 20px #000;
+border-radius: 15px;
+}
+  
+.close {
+display:block;
+position:absolute;
+top:-16px;
+right:5px;
+width:23px;
+height:25px;
+line-height:28px;
+text-align: center;
+color:#fff;
+background: #297cb0;
+cursor:pointer;
+padding-left: 3px;
+border-radius: 15px;
+box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover {
+background-color: #f2302c;
+} 
+
+@media  screen and (max-width: 700px) {
+	#popup {
+width: 280px;
+  }
+}
+
+@media  screen and (max-width: 375px) {
+	#popup,#bg_popup, #bg_popup_third, #bg_popup_fifth, #bg_popup_seventh,
+	#popup, #popup_2, #popup_3, #popup_4, #popup_5, #popup_6, #popup_7, #popup_8 {
+     display: none;
+  }
+}

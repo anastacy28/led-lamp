@@ -1,0 +1,41 @@
+$icon-color: #ed720b;
+.contacts-button {
+	display: flex;
+	align-items: center;
+}
+.mode-address {
+	color: #fff;
+	margin: 0 0 0 auto;
+}
+.contacts-list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-right: 20px;
+	li {
+		color: $icon-color;
+		a {
+			color: #fff;
+			font-size: 15px;
+			line-height: 19px;
+		}
+	}
+}
+
+@media  screen and (max-width: 700px) {
+     .contacts-list {
+     	li {
+		a {
+			font-size: 13px;
+			line-height: 14px;
+		}
+	}
+}
+
+	}
+
+@media  screen and (max-width: 580px) {
+   .contacts-button {
+        flex-direction: column;
+   }
+}
