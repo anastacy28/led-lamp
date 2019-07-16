@@ -1,9 +1,19 @@
+
+
 $(document).ready(function(){
     PopUpHide();
 });
+
 function PopUpShow(){
+	// var cardTitle, resalt;
+
+	// cardTitle = document.getElementById('led5-27').innerHtml;
+	// document.getElementById('out').innerHtml = resalt;
+	// cardTitle = resalt;
     $("#popup1").show();
+
 }
+
 function PopUpHide(){
     $("#popup1").hide();
 }
