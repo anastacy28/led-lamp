@@ -3928,7 +3928,9 @@ html.lb-disable-scrolling {
     flex-direction: column-reverse; }
   .main-content__part {
     width: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+    .main-content__part:first-child {
+      margin: 0 auto; } }
 
 @media screen and (max-width: 900px) {
   .navbar .navbar__logo {
